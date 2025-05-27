@@ -25,11 +25,10 @@ Ground::~Ground() {
 }
 
 void Ground::update() {
-    // Move the source rectangle to the right (creates scrolling effect)
     srcRect.x += (int)gameSpeed;
 
-    // Reset loop when we reach the end of the texture
-    if (srcRect.x >= textureWidth) {
+
+    if (srcRect.x >= textureWidth - windowSize_x) {
         srcRect.x = 0;
     }
 }
