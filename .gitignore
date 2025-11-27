@@ -2,12 +2,12 @@
 *
 
 # Allow these folders
-!src/
-!assets/
+!sources/src/
+!sources/assets/
 
 # Allow contents inside them
-!src/**
-!assets/**
+!sources/src/**
+!sources/assets/**
 
 # Allow root files you want to keep
 !README.md
