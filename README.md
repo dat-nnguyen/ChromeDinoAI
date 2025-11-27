@@ -90,5 +90,6 @@ clang++ -std=c++17 main.cpp src/Dino.cpp src/Ground.cpp src/Obstacles.cpp src/Sc
 * **Game Physics:** Custom collision detection (AABB) and gravity logic.
 
 **Author:** Nguyen Tuan Dat
+
 **License:** MIT
 
