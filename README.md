@@ -13,6 +13,7 @@ Unlike standard AI projects that use Python libraries (TensorFlow/PyTorch), this
 ## 🧠 How It Works
 
 <img width="755" height="629" alt="Image" src="https://github.com/user-attachments/assets/40cfb924-79cb-4f25-be93-4059430bfae8" />
+
 The AI does not know the rules of the game. It learns to play through **Natural Selection**.
 
 ### 1. The Neural Network (The Brain)
