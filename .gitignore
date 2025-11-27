@@ -1,11 +1,49 @@
+# -------------------------------
 # Ignore everything by default
+# -------------------------------
+# Ignore all files
 *
 
-# Allow all inside sources
-!sources/
-!sources/**
-
-# Allow root files you want to keep
+# -------------------------------
+# Keep important root files
+# -------------------------------
 !README.md
 !.gitignore
 !CMakeLists.txt
+
+# -------------------------------
+# Keep all source code
+# -------------------------------
+!sources/
+!sources/**
+
+# -------------------------------
+# Ignore build / output directories
+# -------------------------------
+build/
+bin/
+obj/
+out/
+dist/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# -------------------------------
+# Ignore IDE / editor files
+# -------------------------------
+.vscode/
+.idea/
+*.user
+*.sln
+*.vcxproj*
+*.code-workspace
+
+# -------------------------------
+# Ignore OS junk files
+# -------------------------------
+.DS_Store
+Thumbs.db
