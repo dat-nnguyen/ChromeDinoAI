@@ -16,7 +16,7 @@ Obstacle::Obstacle(SDL_Texture* tex, SDL_Renderer* renderer) : texture(tex) {
 
 
     destRect.x = windowSize_x;
-    destRect.y = windowSize_y - 150.0f; // Adjusted to match your Dino ground level
+    destRect.y = windowSize_y - 150.0f;
 
 
     destRect.w = srcRect.w;
