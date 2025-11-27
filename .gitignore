@@ -1,10 +1,17 @@
-# 1. Ignore everything in the root folder ONLY
-/*
+# --- Blocklist Strategy (Standard) ---
 
-# 2. Explicitly allow the folder itself
-!/sources/
+# 1. Ignore IDE and System files
+.idea/
+.vscode/
+.DS_Store
 
-# 3. Allow root files you want to keep
-!/README.md
-!/.gitignore
-!/CMakeLists.txt
+# 2. Ignore Build folders (Junk)
+cmake-build-debug/
+build/
+bin/
+out/
+*.o
+*.exe
+
+# 3. Track everything else automatically!
+# (No need to list src, header, assets, etc.)
