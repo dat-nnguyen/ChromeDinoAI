@@ -1,47 +1,11 @@
 # Ignore everything by default
 *
 
-# Allow these folders
-!sources/src/
-!sources/assets/
-
-# Allow contents inside them
-!sources/src/**
-!sources/assets/**
+# Allow all inside sources
+!sources/
+!sources/**
 
 # Allow root files you want to keep
 !README.md
 !.gitignore
 !CMakeLists.txt
-
-# --- Common ignores for C/C++ / SDL ---
-# Build directories
-build/
-bin/
-obj/
-out/
-dist/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.dylib
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# Visual Studio / CLion / IDE files
-.vscode/
-.idea/
-*.user
-*.sln
-*.vcxproj*
-*.code-workspace
-
-# OS junk files
-.DS_Store
-Thumbs.db
