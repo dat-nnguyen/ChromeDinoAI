@@ -53,8 +53,6 @@ Each Dino has a custom "Brain" consisting of:
 ├── main.cpp         # Main Game Loop and Population Manager
 └── README.md
 ```
-## Preview
-Here is how it will look when rendered on GitHub or GitLab:
 
 ## 🚀 How to Build & Run
 
